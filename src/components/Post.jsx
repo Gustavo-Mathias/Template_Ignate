@@ -1,8 +1,8 @@
 import styles from './Post.module.css';
-import { Comment } from './Comment';        
-//import { Avatar } from './Avatar';
+import { Comment } from './Comment';   
+import { Avatar } from './Avatar';     
 
-export function Post({ author, content }) {
+export function Post({ author, content }){
     return (
         <article className={styles.post}>
             <header> 
